@@ -10,6 +10,7 @@ import Portfolio from "./pages/Portfolio";
 import Pricing from "./pages/Pricing";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
+import FloatingContactButtons from "./components/FloatingContactButtons";
 
 const queryClient = new QueryClient();
 
@@ -18,6 +19,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
+      <FloatingContactButtons />
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
