@@ -35,7 +35,7 @@ export default function TopBar() {
                 className="font-semibold text-gray-900 cursor-pointer hover:text-[hsl(25,95%,53%)] transition-colors"
                 href="tel:+254740653661"
               >
-                +254 795 592 478
+                +254 790 57 86 86
               </a>
               <p className="text-sm text-gray-500">Any questions? Call us.</p>
             </div>
@@ -49,7 +49,7 @@ export default function TopBar() {
 
             <div>
               <a
-                href="mailto:depotcovers001@gmail.com"
+                href="mailto:peter.robert5@icloud.com"
                 className="cursor-pointer font-semibold uppercase text-blue-700 hover:text-[hsl(25,95%,53%)] transition-colors"
               >
                 Send Us Email
