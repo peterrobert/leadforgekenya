@@ -62,13 +62,13 @@ const Navbar = () => {
                   <span className="font-display text-lg font-bold text-forge-navy">
                     Menu
                   </span>
-                  <Button
+                  {/* <Button
                     variant="ghost"
                     size="icon"
                     onClick={() => setOpen(false)}
                   >
                     <X className="h-5 w-5" />
-                  </Button>
+                  </Button> */}
                 </div>
                 <nav className="flex flex-col gap-1">
                   {navLinks.map((link) => (
