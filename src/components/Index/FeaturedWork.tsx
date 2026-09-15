@@ -3,6 +3,7 @@ import { Badge } from "@/components/ui/badge";
 import { ArrowUpRight } from "lucide-react";
 
 const depotCoverImage = "/deport.png";
+const kikuyuMainImage = "/kikuyuMain.png";
 
 const projects = [
   {
@@ -18,8 +19,7 @@ const projects = [
     category: "Web Platform",
     description:
       "Customer portal and service management system for local utility company.",
-    img_url:
-      "https://storage.googleapis.com/uxpilot-auth.appspot.com/gen_e1617b2041_760d4f9216cb58c0.png",
+    img_url: kikuyuMainImage,
     website_url: "https://kikuyuwater.co.ke",
   },
   {
@@ -61,7 +61,7 @@ const FeaturedWork = () => {
               className="group relative overflow-hidden  border border-forge-navy/10 bg-white transition-all duration-300 hover:-translate-y-1 hover:border-forge-navy/20 hover:shadow-2xl"
             >
               {/* Image */}
-              <div className="relative aspect-[16/12] overflow-hidden bg-forge-cream">
+              <div className="relative aspect-[16/12] overflow-hidden bg-forge-cream cursor-pointer">
                 <img
                   src={project.img_url}
                   alt={`${project.name} website`}
