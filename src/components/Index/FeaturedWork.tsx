@@ -61,7 +61,7 @@ const FeaturedWork = () => {
               className="group relative overflow-hidden  border border-forge-navy/10 bg-white transition-all duration-300 hover:-translate-y-1 hover:border-forge-navy/20 hover:shadow-2xl"
             >
               {/* Image */}
-              <div className="relative aspect-[16/15] overflow-hidden bg-forge-cream">
+              <div className="relative aspect-[16/12] overflow-hidden bg-forge-cream">
                 <img
                   src={project.img_url}
                   alt={`${project.name} website`}
