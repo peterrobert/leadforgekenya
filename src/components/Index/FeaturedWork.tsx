@@ -117,13 +117,13 @@ const FeaturedWork = () => {
                 )}
 
                 {/* Actions */}
-                <div className="mt-6 flex items-center gap-5 border-t border-forge-navy/10 pt-5">
+                <div className="mt-6 flex items-center gap-3 border-t border-forge-navy/10 pt-5">
                   {project.website_url && (
                     <a
                       href={project.website_url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1.5 text-sm font-bold text-forge-navy transition-colors hover:text-forge-orange"
+                      className="group inline-flex items-center gap-2 rounded-full bg-forge-orange px-5 py-2.5 text-sm font-bold text-white shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:bg-forge-navy hover:shadow-md"
                     >
                       Visit Website
                       <ArrowUpRight className="h-4 w-4 transition-transform duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
@@ -132,9 +132,10 @@ const FeaturedWork = () => {
 
                   <Link
                     to="/portfolio"
-                    className="inline-flex items-center gap-1.5 text-sm font-medium text-forge-gray transition-colors hover:text-forge-navy"
+                    className="group inline-flex items-center gap-2 rounded-full border border-forge-navy/20 bg-white px-5 py-2.5 text-sm font-semibold text-forge-navy transition-all duration-200 hover:-translate-y-0.5 hover:border-forge-navy hover:bg-forge-navy hover:text-white hover:shadow-sm"
                   >
                     Case Study
+                    <ArrowUpRight className="h-4 w-4 opacity-60 transition-all duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 group-hover:opacity-100" />
                   </Link>
                 </div>
               </div>
