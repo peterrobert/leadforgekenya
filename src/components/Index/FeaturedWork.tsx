@@ -63,6 +63,13 @@ const projects = [
     tech: ["Nextjs", "Tailwind CSS", "Framer Motion", "Sanity CMS"],
     img_url: kikuyuMainImage,
     website_url: "https://kikuyuwater.co.ke",
+    screenshots: [
+      "/kik1.png",
+      "/kik2.png",
+      "/kik3.png",
+      "/kik4.png",
+      "/kik5.png",
+    ],
   },
   {
     id: "wisa-guard",
@@ -83,6 +90,13 @@ const projects = [
     tech: ["Nextjs", "Tailwind CSS", "Framer Motion", "Sanity CMS"],
     img_url: wisaGuardImage,
     website_url: "https://wisaguardsecurity.co.ke/",
+    screenshots: [
+      "/wis1.png",
+      "/wis2.png",
+      "/wis3.png",
+      "/wis4.png",
+      "/wis5.png",
+    ],
   },
 ];
 
