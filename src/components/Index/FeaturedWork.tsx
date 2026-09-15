@@ -4,6 +4,7 @@ import { ArrowUpRight } from "lucide-react";
 
 const depotCoverImage = "/deport.png";
 const kikuyuMainImage = "/kikuyuMain.png";
+const wisaGuardImage = "/wisagurdmain.png";
 
 const projects = [
   {
@@ -27,9 +28,8 @@ const projects = [
     category: "Corporate Website",
     description:
       "Modern professional website for a high-end security services provider.",
-    img_url:
-      "https://storage.googleapis.com/uxpilot-auth.appspot.com/gen_b32cfc866c_8169da761b64fbf7.png",
-    website_url: "https://wisaguard.co.ke",
+    img_url: wisaGuardImage,
+    website_url: "https://wisaguardsecurity.co.ke/",
   },
 ];
 
