@@ -301,12 +301,40 @@ export function ProjectCaseStudyDialog({
                       key={idx}
                       className="
     group
+    relative
     overflow-hidden
+    rounded-lg
     border
     border-forge-navy/10
-    bg-forge-navy/5
+    bg-white
+    shadow-sm
+    transition-all
+    duration-300
+    hover:-translate-y-1
+    hover:shadow-md
   "
                     >
+                      {/* Screenshot label */}
+                      <div
+                        className="
+      absolute
+      left-3
+      top-3
+      z-10
+      rounded-md
+      bg-white/90
+      px-2.5
+      py-1
+      text-xs
+      font-semibold
+      text-forge-navy
+      shadow-sm
+      backdrop-blur-sm
+    "
+                      >
+                        Screenshot {idx + 1}
+                      </div>
+
                       <img
                         src={image}
                         alt={`${project.title} screenshot ${idx + 1}`}
