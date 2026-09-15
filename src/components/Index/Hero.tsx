@@ -46,8 +46,8 @@ const Hero = () => {
           </div>
 
           <div className="relative w-full max-w-xl lg:max-w-none lg:flex-1">
-            <div className="relative rounded-2xl border border-forge-navy/10 bg-white p-3 shadow-2xl ">
-              <div className="overflow-hidden rounded-xl bg-muted">
+            <div className="relative border border-forge-navy/10 bg-white p-1 shadow-2xl ">
+              <div className="overflow-hidden bg-muted">
                 <img
                   className="w-full object-cover"
                   src="/comp.jpg"
