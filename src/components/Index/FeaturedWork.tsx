@@ -2,14 +2,15 @@ import { Link } from "react-router-dom";
 import { Badge } from "@/components/ui/badge";
 import { ArrowUpRight } from "lucide-react";
 
+const depotCoverImage = "/deport.png";
+
 const projects = [
   {
     name: "Depot Covers",
     category: "Business Website",
     description:
       "A comprehensive showcase for a leading protective covers manufacturer.",
-    img_url:
-      "https://storage.googleapis.com/uxpilot-auth.appspot.com/gen_162920fd34_69b55e668e4fe20c.png",
+    img_url: depotCoverImage,
     website_url: "https://depotcovers.co.ke",
   },
   {
