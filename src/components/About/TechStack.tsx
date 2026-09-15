@@ -13,7 +13,9 @@ const technologies = [
   "Shadcn/UI",
   "Vite",
   "Docker",
-  "AWS"
+  "AWS",
+  "Vercel",
+  "Sanity CMS",
 ];
 
 const TechStack = () => {
@@ -22,7 +24,9 @@ const TechStack = () => {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           <div className="shrink-0">
-            <h2 className="font-display text-2xl font-bold">Tools & Technologies <br className="hidden md:block" /> We Use</h2>
+            <h2 className="font-display text-2xl font-bold">
+              Tools & Technologies <br className="hidden md:block" /> We Use
+            </h2>
           </div>
 
           <div className="flex flex-wrap justify-center md:justify-start gap-3">
