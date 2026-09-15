@@ -33,6 +33,13 @@ const projects = [
       "Framer Motion",
       "Sanity CMS",
     ],
+    screenshots: [
+      "/dep1.png",
+      "/dep2.png",
+      "/dep3.png",
+      "/dep4.png",
+      "/dep5.png",
+    ],
     img_url: depotCoverImage,
     website_url: "https://depotcovers.co.ke",
   },

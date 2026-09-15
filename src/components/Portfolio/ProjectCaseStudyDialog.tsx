@@ -300,26 +300,28 @@ export function ProjectCaseStudyDialog({
                     <div
                       key={idx}
                       className="
-                        group
-                        overflow-hidden
-                        rounded-2xl
-                        border
-                        border-forge-navy/10
-                        bg-forge-navy/5
-                      "
+    group
+    overflow-hidden
+    border
+    border-forge-navy/10
+    bg-forge-navy/5
+  "
                     >
                       <img
                         src={image}
                         alt={`${project.title} screenshot ${idx + 1}`}
                         className="
-                          block
-                          w-full
-                          h-auto
-                          object-cover
-                          transition-transform
-                          duration-500
-                          group-hover:scale-[1.02]
-                        "
+      block
+      w-full
+      h-[250px]
+      md:h-[350px]
+      lg:h-[400px]
+      object-cover
+      object-top
+      transition-transform
+      duration-500
+      group-hover:scale-[1.02]
+    "
                       />
                     </div>
                   ))}
