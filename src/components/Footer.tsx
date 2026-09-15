@@ -1,5 +1,12 @@
 import { Link } from "react-router-dom";
-import { Github, Linkedin, Mail, Phone, MapPin, ArrowUpRight } from "lucide-react";
+import {
+  Github,
+  Linkedin,
+  Mail,
+  Phone,
+  MapPin,
+  ArrowUpRight,
+} from "lucide-react";
 
 const Footer = () => {
   return (
@@ -15,11 +22,12 @@ const Footer = () => {
             </span>
           </Link>
           <p className="mt-4 max-w-xs text-sm leading-relaxed text-white/60">
-            A web design and development studio in Nairobi, Kenya, building modern websites and web apps for small and medium businesses.
+            A web design and development studio in Nairobi, Kenya, building
+            modern websites and web apps for small and medium businesses.
           </p>
           <div className="mt-6 flex items-center gap-3">
             <a
-              href="https://github.com"
+              href="https://github.com/peterrobert"
               target="_blank"
               rel="noreferrer"
               aria-label="GitHub"
@@ -28,7 +36,7 @@ const Footer = () => {
               <Github className="h-4 w-4" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/peterrobertndungu/"
               target="_blank"
               rel="noreferrer"
               aria-label="LinkedIn"
@@ -40,19 +48,65 @@ const Footer = () => {
         </div>
 
         <div>
-          <h4 className="font-display text-sm font-semibold uppercase tracking-wider text-white/50">Navigate</h4>
+          <h4 className="font-display text-sm font-semibold uppercase tracking-wider text-white/50">
+            Navigate
+          </h4>
           <ul className="mt-5 space-y-3 text-sm">
-            <li><Link to="/" className="text-white/80 hover:text-forge-orange transition-colors">Home</Link></li>
-            <li><Link to="/about" className="text-white/80 hover:text-forge-orange transition-colors">About</Link></li>
-            <li><Link to="/services" className="text-white/80 hover:text-forge-orange transition-colors">Services</Link></li>
-            <li><Link to="/portfolio" className="text-white/80 hover:text-forge-orange transition-colors">Portfolio</Link></li>
-            <li><Link to="/pricing" className="text-white/80 hover:text-forge-orange transition-colors">Pricing</Link></li>
-            <li><Link to="/contact" className="text-white/80 hover:text-forge-orange transition-colors">Contact</Link></li>
+            <li>
+              <Link
+                to="/"
+                className="text-white/80 hover:text-forge-orange transition-colors"
+              >
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/about"
+                className="text-white/80 hover:text-forge-orange transition-colors"
+              >
+                About
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/services"
+                className="text-white/80 hover:text-forge-orange transition-colors"
+              >
+                Services
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/portfolio"
+                className="text-white/80 hover:text-forge-orange transition-colors"
+              >
+                Portfolio
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/pricing"
+                className="text-white/80 hover:text-forge-orange transition-colors"
+              >
+                Pricing
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/contact"
+                className="text-white/80 hover:text-forge-orange transition-colors"
+              >
+                Contact
+              </Link>
+            </li>
           </ul>
         </div>
 
         <div>
-          <h4 className="font-display text-sm font-semibold uppercase tracking-wider text-white/50">Contact</h4>
+          <h4 className="font-display text-sm font-semibold uppercase tracking-wider text-white/50">
+            Contact
+          </h4>
           <ul className="mt-5 space-y-3 text-sm text-white/80">
             <li className="flex items-start gap-2">
               <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-forge-orange" />
@@ -60,18 +114,22 @@ const Footer = () => {
             </li>
             <li className="flex items-start gap-2">
               <Mail className="mt-0.5 h-4 w-4 shrink-0 text-forge-orange" />
-              hello@leadforgestudio.com
+              peter.robert5@icloud.com
             </li>
             <li className="flex items-start gap-2">
               <Phone className="mt-0.5 h-4 w-4 shrink-0 text-forge-orange" />
-              +254 700 000 000
+              +254 790 57 86 86
             </li>
           </ul>
         </div>
 
         <div>
-          <h4 className="font-display text-sm font-semibold uppercase tracking-wider text-white/50">Ready to start?</h4>
-          <p className="mt-5 text-sm text-white/70">Let's build something great for your business.</p>
+          <h4 className="font-display text-sm font-semibold uppercase tracking-wider text-white/50">
+            Ready to start?
+          </h4>
+          <p className="mt-5 text-sm text-white/70">
+            Let's build something great for your business.
+          </p>
           <Link
             to="/contact"
             className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-forge-orange hover:underline"
@@ -83,7 +141,9 @@ const Footer = () => {
 
       <div className="border-t border-white/10">
         <div className="mx-auto flex w-full max-w-7xl flex-col items-center justify-between gap-3 px-4 py-6 text-xs text-white/40 sm:flex-row sm:px-6 lg:px-8">
-          <p>© {new Date().getFullYear()} Lead Forge Studio. All rights reserved.</p>
+          <p>
+            © {new Date().getFullYear()} Lead Forge Studio. All rights reserved.
+          </p>
           <p>Designed &amp; built in Nairobi, Kenya.</p>
         </div>
       </div>
