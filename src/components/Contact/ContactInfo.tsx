@@ -1,4 +1,12 @@
-import { Mail, Phone, MapPin, Github, Linkedin, MessageSquare, Clock } from "lucide-react";
+import {
+  Mail,
+  Phone,
+  MapPin,
+  Github,
+  Linkedin,
+  MessageSquare,
+  Clock,
+} from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 export function ContactInfo() {
@@ -6,20 +14,20 @@ export function ContactInfo() {
     {
       icon: MessageSquare,
       label: "WhatsApp",
-      value: "+254 700 000 000",
-      href: "https://wa.me/254700000000",
+      value: "+254770501786",
+      href: "https://wa.me/254770501786",
     },
     {
       icon: Mail,
       label: "Email",
-      value: "hello@leadforgestudio.com",
-      href: "mailto:hello@leadforgestudio.com",
+      value: "peter.robert5@icloud.com",
+      href: "mailto:peter.robert5@icloud.com",
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+254 700 000 000",
-      href: "tel:+254700000000",
+      value: "+254 790 578 686",
+      href: "tel:+254790578686",
     },
     {
       icon: MapPin,
@@ -30,15 +38,21 @@ export function ContactInfo() {
   ];
 
   const socialLinks = [
-    { icon: Github, href: "https://github.com", label: "GitHub" },
-    { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
+    { icon: Github, href: "https://github.com/peterrobert", label: "GitHub" },
+    {
+      icon: Linkedin,
+      href: "https://www.linkedin.com/in/peterrobertndungu/",
+      label: "LinkedIn",
+    },
   ];
 
   return (
     <div className="space-y-6">
       <Card className="border-forge-navy/10 bg-forge-navy text-forge-cream">
         <CardHeader>
-          <CardTitle className="font-display text-xl">Contact Information</CardTitle>
+          <CardTitle className="font-display text-xl">
+            Contact Information
+          </CardTitle>
         </CardHeader>
         <CardContent className="space-y-6">
           <div className="space-y-4">
@@ -48,7 +62,11 @@ export function ContactInfo() {
                 href={detail.href}
                 className="flex items-start gap-4 group transition-colors"
                 target={detail.href.startsWith("http") ? "_blank" : undefined}
-                rel={detail.href.startsWith("http") ? "noopener noreferrer" : undefined}
+                rel={
+                  detail.href.startsWith("http")
+                    ? "noopener noreferrer"
+                    : undefined
+                }
               >
                 <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-white/10 text-forge-orange transition-colors group-hover:bg-forge-orange group-hover:text-white">
                   <detail.icon className="h-5 w-5" />
@@ -68,7 +86,9 @@ export function ContactInfo() {
           <div className="pt-4 border-t border-white/10">
             <div className="flex items-center gap-2 text-forge-cream/60">
               <Clock className="h-4 w-4 text-forge-orange" />
-              <span className="text-xs">Office Hours: Mon - Fri, 9am - 5pm EAT</span>
+              <span className="text-xs">
+                Office Hours: Mon - Fri, 9am - 5pm EAT
+              </span>
             </div>
           </div>
         </CardContent>
