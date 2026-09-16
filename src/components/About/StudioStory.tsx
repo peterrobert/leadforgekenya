@@ -46,7 +46,7 @@ const StudioStory = () => {
               <p>
                 Too many businesses are forced to choose between expensive
                 agencies and generic templates. We exist in that space between
-                the two — combining thoughtful design, solid engineering, and
+                the two combining thoughtful design, solid engineering, and
                 personal service to create websites and web applications that
                 actually work for the business behind them.
               </p>
@@ -54,7 +54,7 @@ const StudioStory = () => {
               <p>
                 Our goal is bigger than launching websites. We want to give
                 ambitious businesses a strong digital foundation they can build
-                on as they grow — locally, nationally, and beyond.
+                on as they grow locally, nationally, and beyond.
               </p>
             </div>
 
