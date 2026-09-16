@@ -83,6 +83,11 @@ const Pricing = () => {
                   "Basic SEO setup",
                   "1 round of revisions",
                   "2-week delivery",
+                  "Google Analytics setup",
+                  "Basic performance optimization",
+                  "Google Search Console setup",
+                  "Google Company Profile setup",
+                  "domain registration & hosting setup guidance",
                 ]}
               />
               <PricingCard
@@ -99,6 +104,10 @@ const Pricing = () => {
                   "Performance optimization",
                   "2 rounds of revisions",
                   "Priority support",
+                  "Sanity CMS integration for easy content updates",
+                  "3-5 week delivery",
+                  "Google Tag Manager setup",
+                  "Email marketing integration",
                 ]}
               />
               <PricingCard
@@ -130,7 +139,11 @@ const Pricing = () => {
             <div className="mt-12">
               <Accordion type="single" collapsible className="w-full">
                 {faqs.map((faq, index) => (
-                  <AccordionItem key={index} value={`item-${index}`} className="border-forge-navy/10">
+                  <AccordionItem
+                    key={index}
+                    value={`item-${index}`}
+                    className="border-forge-navy/10"
+                  >
                     <AccordionTrigger className="text-left font-display font-semibold text-forge-navy hover:text-forge-orange hover:no-underline py-6">
                       {faq.question}
                     </AccordionTrigger>
@@ -152,8 +165,8 @@ const Pricing = () => {
               Still not sure which plan fits?
             </h2>
             <p className="mx-auto mt-4 max-w-xl text-white/70">
-              Book a free consultation call and we'll help you figure out the best
-              solution for your unique business needs.
+              Book a free consultation call and we'll help you figure out the
+              best solution for your unique business needs.
             </p>
             <div className="mt-10 flex justify-center">
               <Button
