@@ -138,10 +138,28 @@ export default function Portfolio() {
             >
               Our Work
             </Badge>
-            <h1 className="mb-6 font-display text-4xl font-bold tracking-tight text-forge-navy sm:text-5xl md:text-6xl lg:text-7xl">
-              Selected <span className="text-forge-orange">Projects</span>
+            <h1
+              className="mb-6 font-display text-4xl font-bold tracking-tight text-forge-navy sm:text-5xl md:text-6xl lg:text-7xl"
+              style={{
+                fontFamily: "Space Grotesk, sans-serif",
+              }}
+            >
+              Selected{" "}
+              <span
+                className="text-forge-orange"
+                style={{
+                  fontFamily: "Space Grotesk, sans-serif",
+                }}
+              >
+                Projects
+              </span>
             </h1>
-            <p className="mx-auto max-w-2xl text-lg text-forge-gray md:text-xl">
+            <p
+              className="mx-auto max-w-2xl text-lg text-forge-gray md:text-xl"
+              style={{
+                fontFamily: "Space Grotesk, sans-serif",
+              }}
+            >
               A showcase of our recent work delivering real results for real
               businesses through modern web technologies and user-centric
               design.
